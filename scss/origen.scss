@@ -1,0 +1,95 @@
+/*esto es eun comentario de scss que se puede ver en css*/
+// y este es un comentario que se puede ver solo en scss
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+// variables
+// sintaxiss: $variable:valor;
+
+$cafe: #4f2307;
+
+// esto es una variable para cuando 
+// necesitemos repetir un valor que luego podamos modificar en un solo lugar
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffd360;;
+    box-shadow: 16px 16px 26px $cafe;
+    font-size: 18px;
+
+    .logo1 {
+        margin-left: 60px; 
+        text-align: center;
+        margin-top: 20px;
+        &:hover{   // esto es una pseudo clase 
+            color: red; 
+        }
+
+    }
+
+    ul {
+        display: flex;
+        margin: auto;
+
+        li {
+            margin-left: 65px;
+
+            a {
+                color: $cafe;
+            }
+        }
+    }
+
+}
+
+
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+        background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.02, #2e0d07), color-stop(0.8, #af6a27));
+}
+
+.body-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-left: 45px;
+    .textoPrincipal {
+        margin-left: 10px;
+        text-align: center;
+    }
+}
+
+
+.body-down {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: $cafe;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    p{
+        color: white
+    }
+}
