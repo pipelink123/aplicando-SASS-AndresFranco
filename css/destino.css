@@ -5,58 +5,54 @@
   list-style-type: none;
   text-decoration: none; }
 
-header {
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
-  border-radius: 20px;
-  background-color: #ffd360;
-  box-shadow: 16px 16px 26px #4f2307;
-  font-size: 18px; }
-  header .logo1 {
-    margin-left: 60px;
-    text-align: center;
-    margin-top: 20px; }
-    header .logo1:hover {
-      color: red; }
-  header ul {
-    display: flex;
-    margin: auto; }
-    header ul li {
-      margin-left: 65px; }
-      header ul li a {
-        color: #4f2307; }
-
 body {
   /* display: flex;
     flex-direction: column; */
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.02, #2e0d07), color-stop(0.8, #af6a27)); }
-
-.body-up {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px;
-  margin-left: 45px; }
-  .body-up .textoPrincipal {
-    margin-left: 10px;
-    text-align: center; }
-
-.body-down {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-  align-items: center;
-  justify-content: space-evenly; }
-
-footer {
-  display: flex;
-  flex-direction: row;
-  height: 50px;
-  background-color: #4f2307;
-  border-radius: 8px;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 20px; }
-  footer p {
-    color: white; }
+  body header {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffd360;
+    box-shadow: 16px 16px 26px #4f2307;
+    font-size: 18px; }
+    body header .logo1 {
+      margin-left: 60px;
+      text-align: center;
+      margin-top: 20px; }
+      body header .logo1:hover {
+        color: red; }
+    body header ul {
+      display: flex;
+      margin: auto; }
+      body header ul li {
+        margin-left: 65px; }
+        body header ul li a {
+          color: #4f2307; }
+  body .body-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-left: 45px; }
+    body .body-up .textoPrincipal {
+      margin-left: 10px;
+      text-align: center; }
+  body .body-down {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly; }
+  body footer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: #4f2307;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px; }
+    body footer p {
+      color: white; }

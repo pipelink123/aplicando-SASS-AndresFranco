@@ -1,14 +1,23 @@
 1 instalar nodejs o npm el el pc	
-2 ingresar al directorio del repositorio. con  - cd rutadelacarpeta -   o   abres la carpeta en visual estudio	
+2 ingresar al dirwctorio del repositorio. con  - cd rutadelacarpeta -   o   abres la carpeta en visual estudio	
 3 inicia el -npm- abriendo una terminal en visual con el comando : npm init
 4 instala el nodemon en el directorio con el comando: npm install -D node-sass nodemon
 5 crear la carpeta scss y css con sus archivos respectivos (origen.scss)(destino.css)
 6 edita el Package.jason y inserta este codigo:
                                                       ,
-                                                      “build-css”: “node-sass --include-path scss scss/origen.scss css/destino.css”,
-                                                      “watch-css”: “nodemon -e scss -x \”npm run build-css\””
+                                                      "build-css":  "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+                                                      "watch-css":  "nodemon -e scss -x \"npm run build-css\""
+
 
 7 coloca el nombre correcto de cada archivo scss y css el el codigo anterior
-8 compila con el comando para iniciar el compilador que pasa la info de scss a css:  npm run watch-css
+8 compila con el comando para que empiece a compilar :  ---  npm run watch-css
 9 listo
-10 no se debe cerrar la terninal por que es la que ejecuta el proceso.
+10 no se debe cerrar la ventana de la terminal por que es la que compila de scss a css.
+
+notas:
+
+
+/*esto es eun comentario de scss que se puede ver en css*/
+// y este es un comentario que se puede ver solo en scss
+
+
